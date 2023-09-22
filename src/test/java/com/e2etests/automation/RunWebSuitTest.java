@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 		features = { "src/spec/features" }, 
 		plugin = { "pretty","html:target/cucumber-report.html" }, 
-		tags = ("@connexion"), 
+		tags = ("@moduleRegister"), 
 		//glue = {"com/e2etests/automation/step_definitions"},
 		monochrome = true,
 		snippets = CAMELCASE
